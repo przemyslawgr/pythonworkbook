@@ -1,0 +1,22 @@
+import math
+a = int(input("Write the first num."))
+b = int(input("Write the second num."))
+
+sm = a + b
+diff = b - a
+multi = a * b
+quotx = a / b
+remain = a % b
+lg = math.log(a, 10)
+result = a^b
+print(
+    f"""
+     sum= {sm}
+     diff= {diff}
+     multi= {multi}
+     quot= {quotx}
+     remain= {remain}
+     lg= {lg}
+     a^b = {result}
+    """
+)
